@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instant Store</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu"><img src="./img/resize.png" alt="">
+        <div class="list">
+          <div class="menuimp">
+            <img src="./img/mall_black.svg" alt="" class="lisico"><p>Stores</p>
+          </div>
+          <div class="menusec">
+            <p class="left">Start Shopping</p>
+            <div class="menitm">
+              <img src="./img/cart_black.svg" alt="" class="lisico"><p>Shopping Cart</p>
+            </div>
+            <div class="menitm">
+              <img src="./img/basket_black.svg" alt="" class="lisico"><p>Market</p>
+            </div>
+            <div class="menuimp">
+              <img src="./img/bookmark_black.svg" alt="" class="lisico"><p>Bookmarks</p>
+            </div>
+          </div>
+          <div class="menutri">
+            <p class="left">Start Shopping</p>
+            <div class="menitm">
+              <img src="./img/euro_black.svg" alt="" class="lisico"><p>Most Bought</p>
+            </div>
+            <div class="menitm">
+              <img src="./img/trending_black.svg" alt="" class="lisico"><p>Trending</p>
+            </div>
+            <div class="menuimp">
+              <img src="./img/hot_black.svg" alt="" class="lisico"><p>Hot Items</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remove" onclick="remen()"></div>
+      <div class="fab"><img class="fabb" src="./img/fab.png" alt=""></div>
+      <header>
+        <div class="topbox">
+      <img src="./img/menu_white.svg" alt="menu" class="icosize" onclick="menu()">
+      <a href="#"><h1>Instant Store</h1></a>
+    </div>
+    <div class="topbox">
+      <a href="./search.html"><img src="./img/search_white.svg" alt="search" class="icosize"></a>
+    </div>
+    </header>
+    <section>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Smartwatch 30% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Store</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Amazon.com 5% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Popular Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Pixel by google</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Trending Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Ipad</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <div class="mainart">
+        <div class="arthead">
+          <h2>Recomended For You</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Sunglasses 25% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </div>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Smartwatch 30% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Store</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Amazon.com 5% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Popular Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Pixel by google</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Trending Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Ipad</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <div class="mainart">
+        <div class="arthead">
+          <h2>Recomended For You</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Sunglasses 25% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </div>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Smartwatch 30% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Todays Store</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Amazon.com 5% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Popular Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Pixel by google</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <article class="mainart">
+        <div class="arthead">
+          <h2>Trending Item</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Ipad</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </article>
+      <div class="mainart">
+        <div class="arthead">
+          <h2>Recomended For You</h2>
+        </div>
+        <div class="artbody">
+          <div class="maintext">
+            <h3>Sunglasses 25% off</h3>
+          </div>
+          <div class="buttons">
+            <h4 onclick="dismiss()">Dismiss</h4>
+            <h4>Show Item</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="asidebox">
+      <div class="support">
+        <h3>Contact Us</h3>
+      </div>
+    </aside>
+    <aside class="asidebox bottom_mov">
+      <div class="support">
+        <h3>Support</h3>
+      </div>
+    </aside>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
